@@ -1,7 +1,13 @@
 
 # Rapport
 
-**Skriv din rapport här!**
+Jag har bytt namn på appen genom att byta värdet i filen strings.xml
+sedan så enabled Internet access för appen genom att lägga till denna bit kod <uses-permission android:name="android.permission.INTERNET"/>
+sedan så bytte jag textview till webview. Sedan så gav jag webview id "dunder" med koden android:id="@+id/dunder"
+Sedan så skapade jag en private webview variable i mainactivity.java filen och instansiera den i oncreate() funktionen
+med denna kod myWebView = findViewById(R.id.dunder);. Sedan så skapde jag en ny webclient samt enablade javascript och settings.
+Efter det så ksapde jag en assets map och i mappen så skapade jag en html fil. 
+efter det så kopplade jag en internal och en external sida till dropdown menyn så att om man klickar på dessa länkar då går man till internal eller external sidorna.
 
 _Du kan ta bort all text som finns sedan tidigare_.
 
@@ -33,7 +39,8 @@ function errorCallback(error) {
 
 Bilder läggs i samma mapp som markdown-filen.
 
-![](android.png)
+![](Screenshot1.png)
+![](Screenshot2.png)
 
 Läs gärna:
 
